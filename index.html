@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./css/genera.css"> -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/master.css">
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <h1 class="main-heading white-text">Kanban Board</h1>
+        <div class="container">
+            <div class="min-container ">
+                <h2 class="secondary-heading white-text ">Not Started</h2>
+                <div class="tasks" title="Not-started">
+                    <!-- <div class="task" draggable="true" >
+                        <input type="text" class="input-task">
+                        <div class="icons">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                            <i class="fa-solid fa-trash"></i>
+                        </div>
+                    </div> -->
+                </div>
+                <button class="btn">+ Add</button>
+            </div>
+            <div class="min-container ">
+                <h2 class="secondary-heading white-text">In Progress</h2>
+                <div class="tasks" title="progress"></div>
+                <button class="btn">+ Add</button>
+            </div>
+            <div class="min-container ">
+                <h2 class=" secondary-heading white-text">Completed</h2>
+                <div class="tasks" title="finished"></div>
+                <button class="btn">+ Add</button>
+            </div>
+        </div>
+        <div class="input-field hidden">
+            <input type="text" class="task-title " placeholder="Write title here">
+            <i class="fa-solid fa-xmark close"></i>
+        </div>
+
+    </div>
+    <p class="copy-right">Copyright @ : El Handasa</p>
+</body>
+
+</html>
